@@ -1,4 +1,4 @@
-from graphics.console import Console
+from system.console import Console
 from graphics.line import Line
 
 

@@ -1,12 +1,9 @@
 import os
-from graphics.rectangle import Rectangle
-from graphics.console import Console
+from ui.line_input import LineInput
+from system.console import Console
 
 if __name__ == "__main__":
     Console.clear()
-    r1 = Rectangle(10, 10, 30, 20)
-    r2 = Rectangle(5, 5, 40, 15)
+    r1 = LineInput("Sample", 10, 10, 50)
     r1.paint()
-    r2.paint()
-    a = Console.getch()
     
