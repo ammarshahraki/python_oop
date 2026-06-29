@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build venv",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "-m",
+                "venv",
+                "${workspaceFolder}/.venv"
+            ],
+            "group": "build"
+        }
+    ]
+}
